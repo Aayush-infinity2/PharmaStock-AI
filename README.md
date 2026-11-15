@@ -108,4 +108,4 @@ Use output only to prioritize a pharmacist or inventory manager's review. Verify
 
 ## Submission items still requiring candidate action
 
-Create/publish the source repository and give the reviewer access; record the repository URL and commit ID. Record the video demonstration and provide its link. Complete candidate identity, declarations and any live demo fields in the company form. No repository or video link is fabricated here.
+The source repository is [Aayush-infinity2/PharmaStock-AI](https://github.com/Aayush-infinity2/PharmaStock-AI) on the `main` branch. It is private, so grant the reviewer access if the assignment portal requires it. Record the 3–5 minute video demonstration and provide its link, then complete candidate identity, declarations and any live demo fields in the company form.
