@@ -1,0 +1,3 @@
+,MAE,RMSE,WAPE
+Moving Average,68.34,106.95,9.93
+XGBoost,28.24,37.27,4.1

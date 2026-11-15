@@ -1,0 +1,8 @@
+PharmaStock AI - EDA Summary
+============================
+Total sales records: 73100
+Unique products: 100
+Total batches: 300
+Sales date range: 2024-01-01 00:00:00 to 2025-12-31 00:00:00
+Potential sales outliers: 106
+Note: Data is synthetic. Inventory snapshots are not yet reconciled with batch movements.

@@ -1,0 +1,101 @@
+product_id,medicine_name,category,unit_price,daily_base_demand
+MED001,Paracetamol,Analgesic,122,33
+MED002,Amoxicillin,Antibiotic,290,12
+MED003,Cetirizine,Antihistamine,208,25
+MED004,Azithromycin,Vitamin,122,23
+MED005,Ibuprofen,Chronic,234,15
+MED006,Metformin,Analgesic,478,28
+MED007,Pantoprazole,Antibiotic,392,28
+MED008,Vitamin C,Antihistamine,150,26
+MED009,Omeprazole,Vitamin,328,6
+MED010,Aspirin,Chronic,363,34
+MED011,Paracetamol,Analgesic,313,6
+MED012,Amoxicillin,Antibiotic,211,25
+MED013,Cetirizine,Antihistamine,180,16
+MED014,Azithromycin,Vitamin,333,26
+MED015,Ibuprofen,Chronic,272,29
+MED016,Metformin,Analgesic,68,31
+MED017,Pantoprazole,Antibiotic,78,32
+MED018,Vitamin C,Antihistamine,207,20
+MED019,Omeprazole,Vitamin,290,7
+MED020,Aspirin,Chronic,326,11
+MED021,Paracetamol,Analgesic,40,13
+MED022,Amoxicillin,Antibiotic,186,22
+MED023,Cetirizine,Antihistamine,407,29
+MED024,Azithromycin,Vitamin,335,18
+MED025,Ibuprofen,Chronic,261,13
+MED026,Metformin,Analgesic,365,6
+MED027,Pantoprazole,Antibiotic,359,32
+MED028,Vitamin C,Antihistamine,386,11
+MED029,Omeprazole,Vitamin,447,12
+MED030,Aspirin,Chronic,450,39
+MED031,Paracetamol,Analgesic,225,21
+MED032,Amoxicillin,Antibiotic,439,8
+MED033,Cetirizine,Antihistamine,21,10
+MED034,Azithromycin,Vitamin,73,8
+MED035,Ibuprofen,Chronic,329,33
+MED036,Metformin,Analgesic,210,22
+MED037,Pantoprazole,Antibiotic,237,38
+MED038,Vitamin C,Antihistamine,221,18
+MED039,Omeprazole,Vitamin,370,19
+MED040,Aspirin,Chronic,475,18
+MED041,Paracetamol,Analgesic,234,25
+MED042,Amoxicillin,Antibiotic,227,22
+MED043,Cetirizine,Antihistamine,386,28
+MED044,Azithromycin,Vitamin,429,29
+MED045,Ibuprofen,Chronic,271,33
+MED046,Metformin,Analgesic,34,5
+MED047,Pantoprazole,Antibiotic,364,11
+MED048,Vitamin C,Antihistamine,28,28
+MED049,Omeprazole,Vitamin,148,12
+MED050,Aspirin,Chronic,491,15
+MED051,Paracetamol,Analgesic,100,12
+MED052,Amoxicillin,Antibiotic,182,39
+MED053,Cetirizine,Antihistamine,308,9
+MED054,Azithromycin,Vitamin,250,32
+MED055,Ibuprofen,Chronic,154,13
+MED056,Metformin,Analgesic,347,16
+MED057,Pantoprazole,Antibiotic,437,37
+MED058,Vitamin C,Antihistamine,67,27
+MED059,Omeprazole,Vitamin,81,28
+MED060,Aspirin,Chronic,312,39
+MED061,Paracetamol,Analgesic,191,26
+MED062,Amoxicillin,Antibiotic,494,39
+MED063,Cetirizine,Antihistamine,468,39
+MED064,Azithromycin,Vitamin,120,18
+MED065,Ibuprofen,Chronic,150,5
+MED066,Metformin,Analgesic,24,30
+MED067,Pantoprazole,Antibiotic,274,18
+MED068,Vitamin C,Antihistamine,378,31
+MED069,Omeprazole,Vitamin,412,19
+MED070,Aspirin,Chronic,34,30
+MED071,Paracetamol,Analgesic,61,17
+MED072,Amoxicillin,Antibiotic,198,36
+MED073,Cetirizine,Antihistamine,250,36
+MED074,Azithromycin,Vitamin,407,34
+MED075,Ibuprofen,Chronic,426,19
+MED076,Metformin,Analgesic,190,33
+MED077,Pantoprazole,Antibiotic,55,17
+MED078,Vitamin C,Antihistamine,179,11
+MED079,Omeprazole,Vitamin,206,26
+MED080,Aspirin,Chronic,303,6
+MED081,Paracetamol,Analgesic,189,10
+MED082,Amoxicillin,Antibiotic,303,32
+MED083,Cetirizine,Antihistamine,127,24
+MED084,Azithromycin,Vitamin,305,15
+MED085,Ibuprofen,Chronic,147,32
+MED086,Metformin,Analgesic,492,37
+MED087,Pantoprazole,Antibiotic,404,31
+MED088,Vitamin C,Antihistamine,465,17
+MED089,Omeprazole,Vitamin,252,7
+MED090,Aspirin,Chronic,378,10
+MED091,Paracetamol,Analgesic,475,31
+MED092,Amoxicillin,Antibiotic,156,37
+MED093,Cetirizine,Antihistamine,326,28
+MED094,Azithromycin,Vitamin,482,36
+MED095,Ibuprofen,Chronic,115,28
+MED096,Metformin,Analgesic,252,16
+MED097,Pantoprazole,Antibiotic,314,6
+MED098,Vitamin C,Antihistamine,406,21
+MED099,Omeprazole,Vitamin,206,6
+MED100,Aspirin,Chronic,149,32

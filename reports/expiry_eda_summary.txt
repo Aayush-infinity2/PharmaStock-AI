@@ -1,0 +1,7 @@
+PHARMASTOCK AI - EXPIRY RISK EDA
+================================
+Total records: 2500
+Unique products: 100
+High risk batches: 165
+Low risk batches: 2335
+Duplicate records: 0
