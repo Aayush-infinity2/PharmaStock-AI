@@ -1,6 +1,6 @@
 # PharmaStock AI
 
-PharmaStock AI is a reproducible, synthetic-data decision-support prototype for 30-day medicine demand forecasting, batch expiry-risk flagging and stock replenishment review. It is an AI/ML assignment demonstration, not a production pharmacy system or medication advice tool. A human must review every alert.
+PharmaStock AI is a reproducible, synthetic-data decision-support prototype for 30-day medicine demand forecasting, batch expiry-risk flagging and stock replenishment review. It helps inventory teams prioritize what to review; it is not a production pharmacy system or medication advice tool. A human must review every alert.
 
 ## What is included
 
@@ -92,20 +92,16 @@ The classifier improves recall and F1 over the baseline in the saved comparison,
 - `src/inference.py` repeats training-time one-hot encoding and aligns columns to the saved artifact, allowing the dashboard to load real trained models rather than return hard-coded examples.
 - Reorder point: average daily forecast × supplier lead time + safety stock. Safety stock uses 1.65 × recent daily-demand standard deviation × square root of lead time. The order quantity raises stock to the lead-time-plus-30-day review target.
 
-## Limitations, responsible use and failure modes
+## Limitations and responsible use
 
 The data is synthetic and its demand patterns are simple. Expiry-risk labels are simulated from future demand using FEFO; the Random Forest learns those assumptions. The expiry dataset has five monthly snapshots and only 165 positive labels among 2,500 records. There is no evidence of generalization to real pharmacies, no calibration study, and no real batch-level on-hand history. Product identifiers and category patterns can make the synthetic task easier than deployment. Stockout censoring, promotions, supplier delays, substitutions, returns and local seasonality are not modeled. The order recommendation does not account for pack sizes, minimum order quantities, budget or procurement constraints.
 
 Use output only to prioritize a pharmacist or inventory manager's review. Verify stock, batch and expiry information in the source system before acting. Never use the tool for treatment decisions or to override product labeling, regulation or professional judgment. Before operational use, retrain and independently evaluate on properly licensed, representative pharmacy data with time-based holdouts and monitoring.
 
-## Suggested demonstration
+## Future scope
 
-1. Show the generated data and EDA summary, and explain what is synthetic.
-2. Compare the moving-average baseline and XGBoost held-out demand metrics.
-3. Compare the expiry-risk baseline and classifier, including the precision/recall trade-off.
-4. Launch the dashboard, select a medicine, and explain the forecast, reorder calculation, FEFO order and model risk scores.
-5. Close with synthetic-label, batch-allocation and generalization limitations.
-
-## Submission items still requiring candidate action
-
-The source repository is [Aayush-infinity2/PharmaStock-AI](https://github.com/Aayush-infinity2/PharmaStock-AI) on the `main` branch. It is private, so grant the reviewer access if the assignment portal requires it. Record the 3–5 minute video demonstration and provide its link, then complete candidate identity, declarations and any live demo fields in the company form.
+- Evaluate the models on representative, properly licensed pharmacy data using rolling time-based validation and ongoing drift monitoring.
+- Incorporate actual batch-level stock movements, sales, returns, stockouts and supplier lead-time history rather than proportional batch allocation.
+- Add promotion, seasonality, substitution and regional effects to demand forecasts, with uncertainty ranges and calibration checks.
+- Extend replenishment planning to account for pack sizes, minimum order quantities, budgets and supplier constraints.
+- Integrate with inventory systems through secure, auditable interfaces, while keeping recommendations subject to qualified human review.
